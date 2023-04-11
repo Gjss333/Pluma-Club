@@ -1,0 +1,57 @@
+html{
+    height: 100vh;
+    background-color: #0f0f0f;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    height: 111px;
+}
+
+nav ul, li{
+    display: flex;
+    margin-right: 60px;
+}
+
+nav ul li a{
+    padding: 5px;
+    list-style: 1px red;
+}
+
+.logo-container img{
+    width: 97px;
+    margin-left: 120px;   
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    height: 580px;
+}
+
+.hero .image{
+    width: 1080px;
+    height: 500px;
+    background: url(../images/pluma_2.png) center center no-repeat;
+    border-radius: 10px 130px 10px 130px;
+    
+}
+
+.club{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0a0a;
+    height: 500px;
+}
+
+.club .box{
+    background-color: #323443;
+    width: 1000px;
+    height: 300px;
+    border-radius: 90px 20px 90px 20px;
+}
