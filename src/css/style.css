@@ -43,15 +43,60 @@ nav ul li a{
 
 .club{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #0a0a0a;
     height: 500px;
 }
 
+.club h1{
+    margin-bottom: 50px;
+    color: white;
+    font-weight: 900;
+    font-size: 48px;
+}
+
 .club .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: #323443;
     width: 1000px;
     height: 300px;
     border-radius: 90px 20px 90px 20px;
+    color: white;
+    padding: 0 50px;
+}
+
+.club .box p{
+    color: #9c9c9c;
+    margin-top: 30px;
+    height: 100px;
+    width: 270px;
+}
+
+.club .box .id{
+    width: 230px;
+
+}
+
+.club .box h2{
+    font-size: 22px;
+}
+
+
+.club .box .text{
+    display: flex;
+    flex-direction: column;
+    align-items: c;
+    justify-content: center;
+    width: 230px;
+    height: 10px;
+    
+}
+
+.club a{
+    margin-top: -50px;
+    font-size: 20px;
 }
