@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;500;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
 html{
     height: 100vh;
     background-color: #0f0f0f;
+    font-family: 'Inter', sans-serif;
 }
 
 nav{
@@ -8,7 +16,6 @@ nav{
     align-items: center;
     justify-content: space-around;
     padding: 20px;
-
     height: 111px;
 }
 
@@ -20,6 +27,7 @@ nav ul, li{
 nav ul li a{
     padding: 5px;
     list-style: 1px red;
+    font-weight: 500;
 }
 
 .logo-container img{
@@ -36,8 +44,10 @@ nav ul li a{
 }
 
 h1{
-    margin: 10px 0 20px 0;
+    margin: 30px 0 40px 0;
     font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 5px;
 }
 
 .planos .container{
@@ -49,10 +59,22 @@ h1{
 .planos .container .shield{
     width: 250px;
     height: 420px;
-    background-color: red;
     border-radius: 20px 20px;
     background-color: #323443;
     border: 3px solid #3c3d50;
+}
+
+.planos .container .shield .desc{
+    display: flex;
+    justify-content: center;
+}
+
+.planos .container .shield .desc2{
+   justify-content: center;
+    width: 210px;
+    margin: 30px 20px;
+    padding: 0 10px;
+    text-align: center;
 }
 
 .planos .container .shield.act1{
@@ -61,6 +83,7 @@ h1{
 
 .planos .container .shield.act2{
     border: 3px solid #dddd6a;
+    box-shadow: 1px 2px 6px 1px #dddd6a;
 }
 
 .planos .container .shield.act3{
@@ -74,7 +97,11 @@ h1{
 
 .planos .container .shield .title{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+.planos .container .shield .title h2{
+    font-weight: 500;
 }
 
 .planos .container .shield p{
@@ -83,7 +110,6 @@ h1{
     text-align: justify;
     padding: 10px;
     font-size: 17px;
-    
 }
 
 .planos .container .shield .asset12{
@@ -91,26 +117,93 @@ h1{
 }
 
 .planos .container .shield .price{
-    font-size: 60px;
+    font-size: 40px;
     color: white;
-    font-weight: bolder;
+    font-weight: 900;
     margin-top: 20px;
-    
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 .planos .container .shield .price.text-edit{
-    margin-top: 85px;
+    margin-top: 95px;
 }
 
 .planos .container .shield .price.text-edit1{
     margin-top: 106px;
 }
 
-.planos .container .shield a{
-    margin-left: 70px;
-    text-align: center;
-    padding: 5px 10px;
+.planos .container .shield .btn{
+    display: inline-block;
+    margin: 10px 62px;
+    padding: 8px 6px;
     font-weight: bolder;
     border-radius: 10px;
-    background-color: #d8c72d;
+    background-color: #2f1370;
+    box-shadow: 1px 2px 6px 1px #190a3b;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.planos .container .shield .btn:hover{
+    background-color: #3d1991;
+    transition: 0.2s ease-in-out;
+}
+
+.gif{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.gif .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 195px;
+    width: 629px;
+    margin-top: 120px;
+    background-color: #323443;
+    border-radius: 20px;
+}
+
+.gif .box h1{
+    margin-top: 50px;
+}
+
+.gif .box i{font-size: 50px;;}
+
+.gif .box a{
+    display: inline-block;
+    margin: 5px 90px;
+    margin-top: -10px;
+    padding: 5px 6px;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: #2f1370;
+    box-shadow: 1px 2px 6px 1px #190a3b;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding-left: 160px;
+    padding-bottom: 30px;
+    width: 1200px;
+    gap: 40px;
+}
+
+.faq .title{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.faq p{
+    padding: 10px 50px;
+    text-align: justify;
 }

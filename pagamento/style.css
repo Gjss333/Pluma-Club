@@ -1,0 +1,44 @@
+html{
+    height: 100vh;
+    background-color: #0f0f0f;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+h1{
+    color: #D7D768;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+i{
+    font-size: 50px;
+    padding: 22px;
+    color: #D7D768;
+}
+
+.img2{
+    height: 80px;
+    padding: 0 20px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.container2.font{
+    font-size: 22px;
+    text-align: center;
+}
+
+.container2 img{
+    margin-top: 30px;
+}
