@@ -99,10 +99,14 @@ nav ul li a{
 .club a{
     margin-top: -50px;
     font-size: 20px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background-color: #2f1370;
 }
 
 .jobs{
-    background-color: #323443;
+    background-color: #191b24;
+    height: 650px;
 }
 
 .jobs .container{
@@ -115,6 +119,7 @@ nav ul li a{
     height: 420px;
     background-color: #0f0f0f;
     border-radius: 20px 20px;
+    border: 0.5px solid #ffffffc
 }
 
 .jobs .container .shield p{
@@ -124,13 +129,35 @@ nav ul li a{
 }
 
 .jobs .container .shield .img{
-    background-color: #9c9c9c;
-    height: 200px;
+    height: 280px;
+    border-radius: 20px 20px;
+}
+
+.jobs .container .shield img{
     border-radius: 20px 20px 0 0;
 }
 
+/* .jobs .container .shield .img.job1{
+    background: url(../images/job1.jpeg) center center no-repeat;
+} */
+
 footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
     height: 160px;
+}
+
+footer ul, li{
+    display: flex;
+    margin-right: 60px;
+}
+
+footer ul li a{
+    padding: 5px;
+    list-style: 1px red;
 }
 
 i{

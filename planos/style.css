@@ -1,0 +1,116 @@
+html{
+    height: 100vh;
+    background-color: #0f0f0f;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
+    height: 111px;
+}
+
+nav ul, li{
+    display: flex;
+    margin-right: 60px;
+}
+
+nav ul li a{
+    padding: 5px;
+    list-style: 1px red;
+}
+
+.logo-container img{
+    width: 97px;
+    margin-left: 120px;   
+}
+
+.planos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+h1{
+    margin: 10px 0 20px 0;
+    font-size: 40px;
+}
+
+.planos .container{
+    display: flex;
+    gap: 90px;
+    margin-top: 50px;
+}
+
+.planos .container .shield{
+    width: 250px;
+    height: 420px;
+    background-color: red;
+    border-radius: 20px 20px;
+    background-color: #323443;
+    border: 3px solid #3c3d50;
+}
+
+.planos .container .shield.act1{
+    border: 3px solid #dacdbc;
+}
+
+.planos .container .shield.act2{
+    border: 3px solid #dddd6a;
+}
+
+.planos .container .shield.act3{
+    border: 3px solid #a73212;
+}
+
+.planos .container .shield img{
+    margin: -55px 0 0 70px ;
+    width: 111px;
+}
+
+.planos .container .shield .title{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.planos .container .shield p{
+    color: #a7a6a4;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 10px;
+    font-size: 17px;
+    
+}
+
+.planos .container .shield .asset12{
+    margin-left: 40px;
+}
+
+.planos .container .shield .price{
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 20px;
+    
+}
+
+.planos .container .shield .price.text-edit{
+    margin-top: 85px;
+}
+
+.planos .container .shield .price.text-edit1{
+    margin-top: 106px;
+}
+
+.planos .container .shield a{
+    margin-left: 70px;
+    text-align: center;
+    padding: 5px 10px;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: #d8c72d;
+}
