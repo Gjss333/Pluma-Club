@@ -19,13 +19,18 @@ nav ul, li{
 
 nav ul li a{
     padding: 5px;
-    list-style: 1px red;
     font-weight: 500;
 }
 
+
 .logo-container img{
     width: 97px;
-    margin-left: 120px;   
+    margin-left: 100px;   
+}
+
+.logo-container p{
+    margin-left: 100px;
+    font-weight: 500;
 }
 
 .hero{
@@ -199,18 +204,27 @@ nav ul li a{
 footer{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
-
     height: 160px;
 }
 
-footer ul, li{
-    display: flex;
-    margin-right: 60px;
+footer div img{
+   padding: 10px;
+   
 }
 
-footer ul li a{
+footer .logo-container img{
+    width: 200px;
+}
+
+footer .text{
+    width: 240px;
+    color: white;
+
+}
+
+footer .text p{
     padding: 5px;
 }
 

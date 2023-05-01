@@ -217,13 +217,22 @@
 
     footer{
         flex-direction: column;
+        height: 300px;
     }
 
-    footer ul, li{
-        display: block;
-        margin-right: 0 ;
-        text-align: center;
+    footer .logo-container a img{
+        margin-left: 10px;
     }
+
+    footer .logo-container a p{
+        margin-left: 13px;
+    }
+
+    footer .text{
+        margin-left: 13px;
+    }
+
+    
 }
 
 @media (max-width: 530px) {
