@@ -35,6 +35,7 @@ nav ul li a{
 }
 
 .hero .image{
+    margin-top: 20px;
     width: 1080px;
     height: 500px;
     background: url(../images/pluma_2.png) center center no-repeat;

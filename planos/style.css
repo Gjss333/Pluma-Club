@@ -64,9 +64,11 @@ h1{
     border: 3px solid #3c3d50;
 }
 
-.planos .container .shield .desc{
+.planos .container .shield .box .desc{
     display: flex;
     justify-content: center;
+    width: 220px;
+    text-align: center;
 }
 
 .planos .container .shield .desc2{
@@ -112,12 +114,17 @@ h1{
     font-size: 17px;
 }
 
+.planos .container .shield .box{
+    display: flex;
+    justify-content: center;
+}
+
 .planos .container .shield .asset12{
-    margin-left: 40px;
+   
 }
 
 .planos .container .shield .price{
-    font-size: 40px;
+    font-size: 32px;
     color: white;
     font-weight: 900;
     margin-top: 20px;
@@ -125,12 +132,17 @@ h1{
     letter-spacing: 2px;
 }
 
+.planos .container .shield .price span{
+    font-size: 12px;
+    font-weight: 700;
+}
+
 .planos .container .shield .price.text-edit{
     margin-top: 95px;
 }
 
 .planos .container .shield .price.text-edit1{
-    margin-top: 106px;
+    margin-top: 85px;
 }
 
 .planos .container .shield .btn{
@@ -187,23 +199,42 @@ h1{
     font-weight: 500;
 }
 
-.faq{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    padding-left: 160px;
-    padding-bottom: 30px;
-    width: 1200px;
-    gap: 40px;
+.gif .box a:hover{
+    background-color: #3d1991;
+    transition: 0.3s ease-in-out;
 }
 
-.faq .title{
+.faq{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: center;
+    color: white;
+    
+
+}
+
+
+.faq .faq-box p{
+    width: 1000px;  
+    font-size: 14px;
+    color: #a3a3a3;
+}
+
+.faq span{
+    font-size: 16px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+/* .faq .title{
     margin-top: 70px;
     text-align: center;
 }
 
-.faq p{
-    padding: 10px 50px;
-    text-align: justify;
-}
+.faq .faq-box .min-box p{
+   display: flex;
+   justify-content: center;
+   text
+} */
