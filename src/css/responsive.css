@@ -148,3 +148,97 @@
     }
     
 }
+
+@media (max-width: 627px){
+
+    nav{
+        flex-direction: column;
+        height: auto;
+        background-color: #080808;
+    }
+    
+    nav ul, li{
+        display: block;
+        text-align: center;
+        margin-right: 0px;
+        margin-top: 15px;
+        padding: 10px;
+    }
+    
+    nav ul li a{
+        padding: 5px;
+    }
+    
+    .logo-container img{
+        margin-left: 0px;
+        margin-top: 10px;  
+    }
+
+    .hero .image{
+        margin-top: 50px;
+    }
+
+    .jobs{
+        background-color: #080808;
+        height: 650px;
+    }
+
+    .jobs h1{
+        width: 350px;
+        text-align: center;
+    }
+    
+    .jobs .container{
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 30px 30px 30px 30px;
+        width: 250px;
+        height: 420px;
+        padding: 0;
+    
+    }
+
+    .jobs .container .legenda{
+        font-size: 18px;
+        letter-spacing: 2px;
+        width: 200px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .jobs a{
+        display: block;
+        font-size: 18px;
+        padding: 8px 5px;
+        margin-top: -20px;
+        margin-left: 10px;
+        
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    footer ul, li{
+        display: block;
+        margin-right: 0 ;
+        text-align: center;
+    }
+}
+
+@media (max-width: 530px) {
+
+    .hero{
+        background: url(../images/pluma_2_resized.png) center center no-repeat;
+        height: 340px;
+    }
+    .hero .image{
+        display: none;
+        margin-top: px;
+        width: 80%;
+        
+        background: url(../images/pluma_2_resized.png) center center no-repeat;
+        border-radius: 10px;
+        
+    }
+}

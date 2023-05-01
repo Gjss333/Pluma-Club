@@ -1,0 +1,30 @@
+@media (max-width: 765px){
+
+
+    h1{
+        font-size: 30px;
+    }
+
+    .img2{
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .container2 img{
+       height: 90px;
+    }
+    
+}
+
+
+@media (max-width: 570px) {
+    
+    h1{
+        width: 220px;
+    }
+
+    .img2{
+        height: 50px;
+        margin-top: 30px;
+    }
+}
